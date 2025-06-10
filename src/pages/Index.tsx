@@ -3,6 +3,7 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ContactWidget from '@/components/ContactWidget';
 import CursorEffect from '@/components/CursorEffect';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
         <Navigation />
         <HeroSection />
         <ContactWidget />
+        <Footer />
       </div>
 
       {/* Additional Background Elements */}
