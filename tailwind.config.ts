@@ -83,8 +83,8 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-dark': 'linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #1e1b4b 100%)',
-				'gradient-card': 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%)',
+				'gradient-dark': 'linear-gradient(135deg, #2d1b69 0%, #44337a 25%, #5b2c87 50%, #44337a 75%, #2d1b69 100%)',
+				'gradient-card': 'linear-gradient(135deg, rgba(147,51,234,0.1) 0%, rgba(147,51,234,0.05) 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

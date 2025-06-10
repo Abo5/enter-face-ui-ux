@@ -35,7 +35,7 @@ const Navigation = () => {
             <a
               key={item.name}
               href={item.href}
-              className={`nav-link ${item.active ? 'text-primary font-medium' : ''}`}
+              className={`nav-link ${item.active ? 'text-purple-400 font-medium' : ''}`}
             >
               {item.name}
             </a>
@@ -45,7 +45,7 @@ const Navigation = () => {
         {/* Language Toggle */}
         <div className="hidden lg:flex items-center space-x-reverse space-x-4">
           <div className="glassmorphic rounded-full px-4 py-2 text-sm">
-            <span className="text-primary font-medium">ENG</span>
+            <span className="text-purple-400 font-medium">ENG</span>
           </div>
         </div>
 
@@ -68,7 +68,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className={`nav-link py-2 ${item.active ? 'text-primary font-medium' : ''}`}
+                className={`nav-link py-2 ${item.active ? 'text-purple-400 font-medium' : ''}`}
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.name}
@@ -76,7 +76,7 @@ const Navigation = () => {
             ))}
             <div className="pt-4 border-t border-white/20">
               <div className="glassmorphic rounded-full px-4 py-2 text-sm text-center">
-                <span className="text-primary font-medium">ENG</span>
+                <span className="text-purple-400 font-medium">ENG</span>
               </div>
             </div>
           </div>
