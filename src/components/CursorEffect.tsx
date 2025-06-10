@@ -44,7 +44,7 @@ const CursorEffect = () => {
         }}
       >
         <div
-          className={`w-8 h-8 bg-purple-400 rounded-full transition-all duration-500 ease-out ${
+          className={`w-8 h-8 bg-purple-300 rounded-full transition-all duration-500 ease-out ${
             isHovering ? 'scale-150 opacity-60' : 'scale-100 opacity-80'
           }`}
         />
@@ -60,7 +60,7 @@ const CursorEffect = () => {
         }}
       >
         <div
-          className={`w-12 h-12 border-2 border-purple-600 rounded-full transition-all duration-700 ease-out ${
+          className={`w-12 h-12 border-2 border-purple-800 rounded-full transition-all duration-700 ease-out ${
             isHovering ? 'scale-200 opacity-30' : 'scale-100 opacity-40'
           }`}
         />

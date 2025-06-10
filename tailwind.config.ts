@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,24 +66,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'navy': {
-					50: '#f0f4ff',
-					100: '#e0e9ff',
-					200: '#c7d6fe',
-					300: '#a5b8fc',
-					400: '#8191f8',
-					500: '#6366f1',
-					600: '#4f46e5',
-					700: '#4338ca',
-					800: '#3730a3',
-					900: '#312e81',
-					950: '#1e1b4b',
-				},
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-dark': 'linear-gradient(135deg, #2d1b69 0%, #44337a 25%, #5b2c87 50%, #44337a 75%, #2d1b69 100%)',
-				'gradient-card': 'linear-gradient(135deg, rgba(147,51,234,0.1) 0%, rgba(147,51,234,0.05) 100%)',
+				'gradient-dark': 'linear-gradient(135deg, #000000 0%, #1a0033 25%, #2d0066 50%, #1a0033 75%, #000000 100%)',
+				'gradient-card': 'linear-gradient(135deg, rgba(60,20,120,0.2) 0%, rgba(30,10,60,0.1) 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
